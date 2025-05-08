@@ -25,12 +25,12 @@ const fadeInUp = {
 };
 
 const poem = [
-  "On ne se parle pas souvent,",
-  "Mais parfois, quelques mots suffisent",
-  "Pour dire :",
-  "J’espère que ta journée est douce,",
-  "Et que ton année commence bien.",
-  "Bon anniversaire.",
+  "Alors voilà, encore une bougie,",
+  "Rien de grave, t'inquiète pas.",
+  "Les années passent, les cosplays claquent,",
+  "Et Miss ODC reste Miss ODC,",
+  "C’est peut-être pas un exploit, mais bon... pas mal quand même.",
+  "Profite bien de la journée.",
 ];
 
 export default function BirthdaySite() {
@@ -151,7 +151,8 @@ export default function BirthdaySite() {
           variants={fadeInUp}
           className="text-xl text-gray-400"
         >
-          J’espère que ce petit geste t’aura fait sourire 🙂
+          Sur ce, je te souhaite de passer une bonne journée. <br />
+          <br />À plus 👨🏿‍💻
         </motion.p>
       </section>
     </div>
